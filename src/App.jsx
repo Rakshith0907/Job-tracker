@@ -1,6 +1,6 @@
 import { useState, useMemo, useEffect } from "react";
 import { useLocalStorage } from "./hooks/useLocalStorage.js";
-import { SEED_DATA, THEMES } from "./constants.js";
+import { THEMES } from "./constants.js";
 import Header from "./components/Header.jsx";
 import StatsBar from "./components/StatsBar.jsx";
 import Toolbar from "./components/Toolbar.jsx";
@@ -8,7 +8,7 @@ import ApplicationList from "./components/ApplicationList.jsx";
 import ApplicationFormModal from "./components/ApplicationFormModal.jsx";
 
 export default function App() {
-  const [apps, setApps] = useLocalStorage("job-tracker:applications", SEED_DATA);
+  const [apps, setApps] = useLocalStorage("job-tracker:applications");
   const [theme, setTheme] = useLocalStorage("job-tracker:theme", "paper");
   const [query, setQuery] = useState("");
   const [editing, setEditing] = useState(undefined); // undefined = closed, null = new, object = edit

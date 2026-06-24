@@ -10,30 +10,30 @@ export const STAGE_MAP = Object.fromEntries(STAGES.map((s) => [s.key, s]));
 
 // Each theme defines the CSS variables applied to the document root.
 export const THEMES = {
-  paper: {
-    name: "Paper",
-    swatch: "#F7F4EE",
-    vars: {
-      "--bg": "#F7F4EE",
-      "--card": "#FFFFFF",
-      "--text": "#2B2A28",
-      "--text-soft": "#6B6660",
-      "--accent": "#C1440E",
-      "--border": "#E6E1D6",
-    },
-  },
-  slate: {
-    name: "Slate",
-    swatch: "#1B1D21",
-    vars: {
-      "--bg": "#1B1D21",
-      "--card": "#242730",
-      "--text": "#EDEEF0",
-      "--text-soft": "#9A9DA6",
-      "--accent": "#6C9BFF",
-      "--border": "#34373F",
-    },
-  },
+  // paper: {
+  //   name: "Paper",
+  //   swatch: "#F7F4EE",
+  //   vars: {
+  //     "--bg": "#F7F4EE",
+  //     "--card": "#FFFFFF",
+  //     "--text": "#2B2A28",
+  //     "--text-soft": "#6B6660",
+  //     "--accent": "#C1440E",
+  //     "--border": "#E6E1D6",
+  //   },
+  // },
+  // slate: {
+  //   name: "Slate",
+  //   swatch: "#1B1D21",
+  //   vars: {
+  //     "--bg": "#1B1D21",
+  //     "--card": "#242730",
+  //     "--text": "#EDEEF0",
+  //     "--text-soft": "#9A9DA6",
+  //     "--accent": "#6C9BFF",
+  //     "--border": "#34373F",
+  //   },
+  // },
   mint: {
     name: "Mint",
     swatch: "#2F9E6E",
@@ -46,18 +46,18 @@ export const THEMES = {
       "--border": "#DCEAE3",
     },
   },
-  blush: {
-    name: "Blush",
-    swatch: "#D2685A",
-    vars: {
-      "--bg": "#FBF2F1",
-      "--card": "#FFFFFF",
-      "--text": "#2E2424",
-      "--text-soft": "#8A7370",
-      "--accent": "#D2685A",
-      "--border": "#F0DEDB",
-    },
-  },
+  // blush: {
+  //   name: "Blush",
+  //   swatch: "#D2685A",
+  //   vars: {
+  //     "--bg": "#FBF2F1",
+  //     "--card": "#FFFFFF",
+  //     "--text": "#2E2424",
+  //     "--text-soft": "#8A7370",
+  //     "--accent": "#D2685A",
+  //     "--border": "#F0DEDB",
+  //   },
+  // },
 };
 
 export function uid() {
