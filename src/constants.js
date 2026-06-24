@@ -71,29 +71,29 @@ export function formatDate(d) {
   return dt.toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" });
 }
 
-export const SEED_DATA = [
-  {
-    id: uid(),
-    company: "Northwind Studios",
-    role: "Frontend Engineer",
-    stage: "interviewing",
-    dateApplied: "2026-06-02",
-    lastActionDate: "2026-06-18",
-    location: "Remote",
-    round: "Round 2 — Technical",
-    notes: "Strong culture fit, waiting on panel feedback.",
-    link: "",
-  },
-  {
-    id: uid(),
-    company: "Helio Robotics",
-    role: "Product Designer",
-    stage: "applied",
-    dateApplied: "2026-06-10",
-    lastActionDate: "",
-    location: "Bengaluru, IN",
-    round: "",
-    notes: "",
-    link: "",
-  },
-];
+// export const SEED_DATA = [
+//   {
+//     id: uid(),
+//     company: "Northwind Studios",
+//     role: "Frontend Engineer",
+//     stage: "interviewing",
+//     dateApplied: "2026-06-02",
+//     lastActionDate: "2026-06-18",
+//     location: "Remote",
+//     round: "Round 2 — Technical",
+//     notes: "Strong culture fit, waiting on panel feedback.",
+//     link: "",
+//   },
+//   {
+//     id: uid(),
+//     company: "Helio Robotics",
+//     role: "Product Designer",
+//     stage: "applied",
+//     dateApplied: "2026-06-10",
+//     lastActionDate: "",
+//     location: "Bengaluru, IN",
+//     round: "",
+//     notes: "",
+//     link: "",
+//   },
+// ];
